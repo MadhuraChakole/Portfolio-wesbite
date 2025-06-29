@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Madhura Chakole | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="#home">MC</a>
+      </div>
+      <ul class="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1 class="hero-title">Madhura Chakole</h1>
+        <h2 class="hero-subtitle">Aspiring Web Developer</h2>
+        <p class="hero-description">
+          MCA student passionate about creating beautiful and functional websites using HTML, CSS, JavaScript, and Java.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+          <a href="assets/Latest resume.pdf" class="btn btn-primary" download>Download Resume</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="profile-image">
+          <img src="assets/Photo.jpg" alt="Madhura Chakole" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+          <div class="profile-placeholder" style="display: none;">
+            <i class="fas fa-user-circle"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>I am currently pursuing my MCA and aiming to grow as a professional web developer. I'm a fast learner, adaptable, respectful, and can work independently or in a team.</p>
+          <p>I enjoy creating websites that are both visually appealing and technically sound.</p>
+          <div class="education">
+            <h3>Education</h3>
+            <p><strong>MCA</strong> – PVG College, SEM 1: 78%</p>
+            <p><strong>BSc</strong> – PVG College, 76.1%</p>
+            <p><strong>12th</strong> – NMV College, 68.62%</p>
+            <p><strong>10th</strong> – Dajikaka Gadgil School, 79.40%</p>
+          </div>
+          
+          <div class="skills-section">
+            <h3>Technical Skills</h3>
+            <div class="skills-grid">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Java</span>
+                  <span class="skill-percentage">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">HTML/CSS</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">JavaScript</span>
+                  <span class="skill-percentage">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">Python</span>
+                  <span class="skill-percentage">70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span class="skill-name">SQL</span>
+                  <span class="skill-percentage">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="soft-skills">
+            <h3>Soft Skills</h3>
+            <div class="soft-skills-grid">
+              <span class="soft-skill-tag">Adaptability</span>
+              <span class="soft-skill-tag">Patience</span>
+              <span class="soft-skill-tag">Teamwork</span>
+              <span class="soft-skill-tag">Trustworthy</span>
+              <span class="soft-skill-tag">Eager to Learn</span>
+              <span class="soft-skill-tag">Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-building"></i></div>
+          <h3>Online Hostel Management</h3>
+          <p>A hostel system that allows the admin to manage students and employees efficiently.</p>
+          <p><strong>Tech Used:</strong> Java, MySQL, HTML, CSS</p>
+        </div>
+        <div class="project-card">
+          <div class="project-icon"><i class="fas fa-globe"></i></div>
+          <h3>Portfolio Website</h3>
+          <p>A responsive portfolio site to showcase my skills and projects, built using web technologies.</p>
+          <p><strong>Tech Used:</strong> HTML, CSS, JavaScript, Bootstrap</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Get In Touch</h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <p>I'm always open to learning and collaboration. Let's connect!</p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/madhura-chakole" target="_blank" class="contact-link">
+              <i class="fab fa-linkedin"></i> <span>LinkedIn</span>
+            </a>
+            <a href="https://github.com/MadhuraChakole" target="_blank" class="contact-link">
+              <i class="fab fa-github"></i> <span>GitHub</span>
+            </a>
+            <a href="mailto:madhura.chakole@gmail.com" class="contact-link">
+              <i class="fas fa-envelope"></i> <span>Email</span>
+            </a>
+            <a href="tel:9325509858" class="contact-link">
+              <i class="fas fa-phone"></i> <span>Phone</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Madhura Chakole. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
